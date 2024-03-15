@@ -1,0 +1,53 @@
+/* para compilar abrirmos la consola en la carpeta que estamos trabajando
+y colocamos : lessc --watch estilos.less styles.css
+seria el nombre del archivo que tengo como less y el nombre del
+archivo al que quiero que compile el css
+- otra opcion mas eficinete es instalar la extension Easy LESS
+vas a tu archivo less pulsas control + s y te crea el archivo css
+lo vinculas al html y listo.
+*/
+body {
+  background: lightblue;
+}
+h1 {
+  font-family: Arial;
+}
+.informacion ul li {
+  margin: 5px;
+  padding: 3px;
+}
+.informacion ul a {
+  color: green;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+/*.sombras(){
+    box-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 5px black;
+}
+//aplicamos
+.informacion{
+    // aplica sombras que fue las reglas que indicamos arrib
+    // las aplica en la clase informacion
+    .sombras();
+}
+*/
+.informacion {
+  box-shadow: 0px 0px 5px black;
+  text-shadow: 0px 0px 5px gray;
+}
+h1 {
+  font-size: 37px;
+}
+h1 {
+  color: blue;
+  color: black;
+}
+.informacion {
+  height: 900px;
+  height: 450px;
+  height: 300px;
+  height: 225px;
+  height: 180px;
+}
